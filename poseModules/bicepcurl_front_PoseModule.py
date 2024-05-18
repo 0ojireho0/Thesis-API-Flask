@@ -248,3 +248,5 @@ class poseDetector():
                 engine.endLoop()
         except Exception as e:
             print(f"An error occurred while trying to play the sound: {e}")
+            
+    

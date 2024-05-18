@@ -536,6 +536,20 @@ def result():
 
     return jsonify({"total_successful":total_successful_count_bicep}, {"total_unsuccessful":total_unsuccessful_count_bicep}, {"general_feedback" : feedback_for_results}, {"general_feedback_unsuccessful" : feedback_for_unsuccessful_result})
 
+total_feedback_for_results = ""
+@app.route('/get_feedback', methods=['POST'])
+def get_feedback():
+    feedbackForResult = request.json['feedbackForResult']
+    feedbackForUnsuccessfulResult = request.json['feedbackForUnsuccessfulResult']
+    total_feedback_for_results = f"{feedbackForResult}{feedbackForUnsuccessfulResult}"
+    print(total_feedback_for_results)
+    executor.submit(detector_bicep.tts_sound, total_feedback_for_results)
+
+    return jsonify({"success" : "success getting feedback"})
+
+
+
+
 
 
 if __name__ == '__main__':
