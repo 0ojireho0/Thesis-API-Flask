@@ -179,8 +179,6 @@ total_unsuccessful_count_bicep_set2 = 0
 
 rest_bicep_start_time_set2 = time.time()
 
-text_correction_set2 = ""
-live_feedback_set2 = ""
 feedback_for_results_set2 = ""
 feedback_for_unsuccessful_result_set2 = ""
 
@@ -264,8 +262,7 @@ total_unsuccessful_count_bicep_set3 = 0
 
 rest_bicep_start_time_set3 = time.time()
 
-text_correction_set3 = ""
-live_feedback_set3 = ""
+
 feedback_for_results_set3 = ""
 feedback_for_unsuccessful_result_set3 = ""
 
@@ -343,6 +340,138 @@ rest_goblet_start_time = time.time()
 
 # -------------- END GOBLET SQUAT SET 1 ------------
 
+# -------------- GOBLET SQUAT SET 2 ----------------
+dir_gobletsquat_left_set2 = 0
+dir_gobletsquat_right_set2 = 0
+
+
+# Display info
+display_info_gobletsquat_set2 = True
+
+per_right_gobletsquat_set2 = 0
+per_left_gobletsquat_set2 = 0
+bar_left_gobletsquat_set2 = 0
+bar_right_gobletsquat_set2 = 0 
+
+
+color_right_gobletsquat_set2 = (0, 0, 255)
+color_left_gobletsquat_set2 = (0, 0, 255)
+
+
+success_threshold_gobletsquat_set2 = 100
+
+atrest_value_gobletsquat_set2 = 0
+
+unsuccessful_reps_count_left_gobletsquat_set2 = 0
+successful_reps_count_left_gobletsquat_set2 = 0
+
+unsuccessful_reps_count_right_gobletsquat_set2 = 0
+successful_reps_count_right_gobletsquat_set2 = 0
+
+dir_left_unsuccessful_gobletsquat_set2 = 0
+dir_right_unsuccessful_gobletsquat_set2 = 0
+
+start_time1_gobletsquat_set2 = time.time()
+start_time4_gobletsquat_set2 = time.time()
+time_threshold_gobletsquat_set2 = 5 # Specify the time threshold in seconds # can be changed for testing but default should be 1, 0.2 is for testing
+within_range_time3_gobletsquat_set2 = 0
+
+# gen feedback success
+
+general_feedback_set2 = ""
+general_feedback_left_gobletsquat_set2 = ""
+
+gen_feedback_unsuccessful_set2 = ""
+
+# gen feedback unsuccess
+dir_gen_feedback_gobletsquat_set2 = 0
+dir_gen_feedback_unsuccessful_gobletsquat_set2 = 0
+
+cooldown_timer_gobletsquat_set2 = 0
+
+sound_correct_both = r'D:\CPEDES\Fittology-Flask\audio\correct_final.WAV'
+sound_incorrect_both = r'D:\CPEDES\Fittology-Flask\audio\wrong_final.WAV'
+
+# sound_gen_correct = r'D:\CPEDES\Fittology-Flask\audio\SUCCESFUL_MARIO.WAV'
+# sound_gen_incorrect = r'D:\CPEDES\Fittology-Flask\audio\UNSUCCESSFUL_MARIO.WAV'
+
+# tts_correct_both = "correct both form"
+# tts_incorrect_both = "incorrect both form"
+
+# executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+
+live_gen_feedback_gobletsquat_set2 = ""
+
+rest_goblet_start_time_set2 = time.time()
+
+# -------------- END GOBLET SQUAT SET 2 ------------
+
+# -------------- GOBLET SQUAT SET 2 ----------------
+dir_gobletsquat_left_set3 = 0
+dir_gobletsquat_right_set3 = 0
+
+
+# Display info
+display_info_gobletsquat_set3 = True
+
+per_right_gobletsquat_set3 = 0
+per_left_gobletsquat_set3 = 0
+bar_left_gobletsquat_set3 = 0
+bar_right_gobletsquat_set3 = 0 
+
+
+color_right_gobletsquat_set3 = (0, 0, 255)
+color_left_gobletsquat_set3 = (0, 0, 255)
+
+
+success_threshold_gobletsquat_set3 = 100
+
+atrest_value_gobletsquat_set3 = 0
+
+unsuccessful_reps_count_left_gobletsquat_set3 = 0
+successful_reps_count_left_gobletsquat_set3 = 0
+
+unsuccessful_reps_count_right_gobletsquat_set3 = 0
+successful_reps_count_right_gobletsquat_set3 = 0
+
+dir_left_unsuccessful_gobletsquat_set3 = 0
+dir_right_unsuccessful_gobletsquat_set3 = 0
+
+start_time1_gobletsquat_set3 = time.time()
+start_time4_gobletsquat_set3 = time.time()
+time_threshold_gobletsquat_set3 = 5 # Specify the time threshold in seconds # can be changed for testing but default should be 1, 0.2 is for testing
+within_range_time3_gobletsquat_set3 = 0
+
+# gen feedback success
+
+general_feedback_set3 = ""
+general_feedback_left_gobletsquat_set3 = ""
+
+gen_feedback_unsuccessful_set3 = ""
+
+# gen feedback unsuccess
+dir_gen_feedback_gobletsquat_set3 = 0
+dir_gen_feedback_unsuccessful_gobletsquat_set3 = 0
+
+cooldown_timer_gobletsquat_set3 = 0
+
+sound_correct_both = r'D:\CPEDES\Fittology-Flask\audio\correct_final.WAV'
+sound_incorrect_both = r'D:\CPEDES\Fittology-Flask\audio\wrong_final.WAV'
+
+# sound_gen_correct = r'D:\CPEDES\Fittology-Flask\audio\SUCCESFUL_MARIO.WAV'
+# sound_gen_incorrect = r'D:\CPEDES\Fittology-Flask\audio\UNSUCCESSFUL_MARIO.WAV'
+
+# tts_correct_both = "correct both form"
+# tts_incorrect_both = "incorrect both form"
+
+# executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+
+live_gen_feedback_gobletsquat_set3 = ""
+
+rest_goblet_start_time_set3 = time.time()
+
+# -------------- END GOBLET SQUAT SET 2 ------------
+
 total_successful_count = 0 
 total_unsuccessful_count = 0
 
@@ -387,6 +516,15 @@ def gen():
                 img_with_faces = goblet_squat(img)
             elif exercise_mode == "rest_goblet":
                 img_with_faces = rest_goblet(img)
+            elif exercise_mode == "goblet_squat_set2":
+                img_with_faces = goblet_squat_set2(img)
+            elif exercise_mode == "rest_goblet_set2":
+                img_with_faces =  rest_goblet_set2(img)
+            elif exercise_mode == "goblet_squat_set3":
+                img_with_faces = goblet_squat_set3(img)
+            elif exercise_mode == "rest_goblet_set3":
+                img_with_faces = rest_goblet_set3(img)
+            
 
 
             ret, jpeg = cv2.imencode('.jpg', img_with_faces)
@@ -1437,9 +1575,365 @@ def goblet_squat(img):
     return img
 
 def rest_goblet(img):
-    global exercise_mode, rest_goblet_start_time, go_result_page
+    global exercise_mode, rest_goblet_start_time, start_time1_gobletsquat_set2 #go_result_page
     img = cv2.resize(img, (1280, 720))
     rest_elapsed_time = time.time() - rest_goblet_start_time
+    #print(rest_elapsed_time)
+    rest_remaining_time = max(0, 5 - int(rest_elapsed_time))
+    
+
+    # Draw rectangle behind the timer text
+    cv2.rectangle(img, (890, 10), (1260, 80), (255, 0, 0), -2)  # Rectangle position and color
+
+    # Draw timer text above the rectangle
+    timer_text = f"Rest: {int(rest_remaining_time)}s"
+    cv2.putText(img, timer_text, (900, 60), cv2.FONT_HERSHEY_SIMPLEX, 1.6, (0, 0, 255), 3)
+
+    if rest_remaining_time <= 0:
+        #go_result_page = True
+        exercise_mode = "goblet_squat_set2"
+        start_time1_gobletsquat_set2 = time.time()
+
+    return img
+
+def goblet_squat_set2(img):
+    global display_info_gobletsquat_set2, start_time1_gobletsquat_set2, dir_gobletsquat_left_set2, dir_gobletsquat_right_set2, per_right_gobletsquat_set2, per_left_gobletsquat_set2, bar_left_gobletsquat_set2, bar_right_gobletsquat_set2, color_right_gobletsquat_set2, color_left_gobletsquat_set2, success_threshold_gobletsquat_set2, atrest_value_gobletsquat_set2, unsuccessful_reps_count_left_gobletsquat_set2, successful_reps_count_left_gobletsquat_set2, unsuccessful_reps_count_right_gobletsquat_set2, successful_reps_count_right_gobletsquat_set2, dir_left_unsuccessful_gobletsquat_set2, dir_right_unsuccessful_gobletsquat_set2, start_time4_gobletsquat_set2, time_threshold_gobletsquat_set2, within_range_time3_gobletsquat_set2, general_feedback_set2, general_feedback_left_gobletsquat_set2, gen_feedback_unsuccessful_set2, dir_gen_feedback_gobletsquat_set2, dir_gen_feedback_unsuccessful_gobletsquat_set2, cooldown_timer_gobletsquat_set2, sound_correct_both, sound_incorrect_both, sound_gen_correct, sound_gen_incorrect, tts_correct_both, tts_incorrect_both, rest_goblet_start_time_set2, executor, total_successful_count_set2, total_unsuccessful_count_set2, live_gen_feedback_gobletsquat_set2, exercise_mode, text_correction, live_feedback, feedback_for_results_set2, feedback_for_unsuccessful_result_set2, general_feedback_unsuccessful_set2
+
+    img = cv2.resize(img, (1280, 720))
+
+    elapsed_time_gobletsquat = time.time() - start_time1_gobletsquat_set2
+    remaining_time_gobletsquat = max(0, 20 - elapsed_time_gobletsquat)
+
+    if display_info_gobletsquat_set2:  # Check if to display counter, bar, and percentage
+        img = detector_gobletsquat.findPose(img, False)
+        lmList_gobletsquat = detector_gobletsquat.findPosition(img, False)
+
+        # Define angles for jumping jacks outside the if statement
+        if len(lmList_gobletsquat) != 0:
+
+            # Right and Left keypoints
+            rightleg_gobletsquat_set2 = detector_gobletsquat.GobletSquat(img, 24, 26, 28, True)
+            leftleg_gobletsquat_set2 = detector_gobletsquat.GobletSquat(img, 23, 25, 27, True)
+
+            if cooldown_timer_gobletsquat_set2 > 0:
+                cooldown_timer_gobletsquat_set2 -= 1
+
+            per_right_gobletsquat_set2 = np.interp(rightleg_gobletsquat_set2, (160, 240), (100, 0))
+            bar_right_gobletsquat_set2 = np.interp(rightleg_gobletsquat_set2, (160, 240), (480, 680))
+            per_left_gobletsquat_set2 = np.interp(leftleg_gobletsquat_set2, (160, 240), (100, 0))
+            bar_left_gobletsquat_set2 = np.interp(leftleg_gobletsquat_set2, (160, 240), (480, 680))
+
+
+            if int(per_left_gobletsquat_set2) == 100:
+                color_left_gobletsquat_set2 = (0, 255, 0)  # Change color of left leg bar to green
+            else:
+                color_left_gobletsquat_set2 = (0, 0, 255)
+            
+            if int(per_right_gobletsquat_set2) == 100:
+                color_right_gobletsquat_set2 = (0, 255, 0)
+            else:
+                color_right_gobletsquat_set2 = (0, 0, 255)
+
+            #both
+            if 40 <= per_left_gobletsquat_set2 <= 95 and 40 <= per_right_gobletsquat_set2 <= 95:
+                within_range_time3_gobletsquat_set2 += time.time() - start_time4_gobletsquat_set2
+                #start_time4_gobletsquat = time.time() 
+
+                if within_range_time3_gobletsquat_set2 >= time_threshold_gobletsquat_set2:
+                    if dir_left_unsuccessful_gobletsquat_set2 == 0 and dir_right_unsuccessful_gobletsquat_set2 == 0:
+                        unsuccessful_reps_count_left_gobletsquat_set2 += 0.5
+                        unsuccessful_reps_count_right_gobletsquat_set2 += 0.5
+                        executor.submit(detector_gobletsquat.play_sound, sound_incorrect_both)
+                        executor.submit(detector_gobletsquat.tts_sound, tts_incorrect_both)
+                        text_correction = "INCORRECT BOTH"
+                        dir_left_unsuccessful_gobletsquat_set2 = 1
+                        dir_right_unsuccessful_gobletsquat_set2 = 1
+                        
+            else:
+                within_range_time3_gobletsquat_set2 = 0
+                # Update the start time to the current time
+                start_time4_gobletsquat_set2 = time.time()
+
+            if 1 <= per_left_gobletsquat_set2 <= 10 and 1 <= per_right_gobletsquat_set2 <= 10:
+                if dir_left_unsuccessful_gobletsquat_set2 == 1 and dir_right_unsuccessful_gobletsquat_set2 == 1:
+                    unsuccessful_reps_count_left_gobletsquat_set2 += 0.5
+                    unsuccessful_reps_count_right_gobletsquat_set2 += 0.5
+                    dir_left_unsuccessful_gobletsquat_set2 = 0
+                    dir_right_unsuccessful_gobletsquat_set2 = 0
+                    text_correction = "ATREST"
+
+            if per_left_gobletsquat_set2 == success_threshold_gobletsquat_set2 and per_right_gobletsquat_set2 == success_threshold_gobletsquat_set2:
+                if dir_gobletsquat_left_set2 == 0 and dir_gobletsquat_right_set2 == 0:
+                    successful_reps_count_left_gobletsquat_set2 += 0.5
+                    successful_reps_count_right_gobletsquat_set2 += 0.5
+                    dir_gobletsquat_left_set2 = 1
+                    dir_gobletsquat_right_set2 = 1
+                    executor.submit(detector_gobletsquat.play_sound, sound_correct_both)
+                    executor.submit(detector_gobletsquat.tts_sound, tts_correct_both)
+                    text_correction = "CORRECT BOTH"
+
+            elif per_left_gobletsquat_set2 == atrest_value_gobletsquat_set2 and per_right_gobletsquat_set2 == atrest_value_gobletsquat_set2:
+                if dir_gobletsquat_left_set2 == 1 and dir_gobletsquat_right_set2 == 1:
+                    successful_reps_count_left_gobletsquat_set2 += 0.5
+                    successful_reps_count_right_gobletsquat_set2 += 0.5
+                    text_correction = "ATREST"
+                    if successful_reps_count_left_gobletsquat_set2 == successful_reps_count_right_gobletsquat_set2 and 1 <= successful_reps_count_left_gobletsquat_set2 <= 10:
+                        live_gen_feedback_gobletsquat_set2 = detector_gobletsquat.leg_feedback(successful_reps_count_left_gobletsquat_set2, successful_reps_count_right_gobletsquat_set2)
+                        live_feedback = live_gen_feedback_gobletsquat_set2
+                    dir_gobletsquat_left_set2 = 0
+                    dir_gobletsquat_right_set2 = 0
+
+
+        cvzone.putTextRect(img, 'Front Goblet Squat SET 2', [450, 30], thickness=2, border=2, scale=1.5)
+
+        # Draw rectangle behind the timer text
+        cv2.rectangle(img, (890, 10), (1260, 80), (255, 0, 0), -2)  # Rectangle position and color
+
+        # Draw timer text above the rectangle
+        timer_text = f"Time left: {int(remaining_time_gobletsquat)}s"
+        cv2.putText(img, timer_text, (900, 60), cv2.FONT_HERSHEY_SIMPLEX, 1.6, (0, 0, 255), 3)
+        # RIGHT LEG
+        cv2.putText(img, f"R {int(per_right_gobletsquat_set2)}%", (24, 470), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 0, 255), 7)
+        cv2.rectangle(img, (8, 480), (50, 680), (0, 255, 0), 5)
+        cv2.rectangle(img, (8, int(bar_right_gobletsquat_set2)), (50, 680), color_right_gobletsquat_set2, -1)
+
+        # LEFT LEG
+        cv2.putText(img, f"L {int(per_left_gobletsquat_set2)}%", (962, 470), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 0, 255), 7)
+        cv2.rectangle(img, (952, 480), (995, 680), (0, 255, 0), 5)
+        cv2.rectangle(img, (952, int(bar_left_gobletsquat_set2)), (995, 680), color_left_gobletsquat_set2, -1)
+
+    # Counter 
+    cv2.rectangle(img, (20, 20), (200, 130), (0, 0, 255), -1)
+    cv2.putText(img, f"{int(successful_reps_count_right_gobletsquat_set2)}/5", (30, 90), cv2.FONT_HERSHEY_SCRIPT_SIMPLEX, 1.6, (255, 255, 255), 7)
+
+    cv2.rectangle(img, (210, 20), (390, 130), (255, 0, 0), -1)
+    cv2.putText(img, f"{int(successful_reps_count_left_gobletsquat_set2)}/5", (220, 90), cv2.FONT_HERSHEY_SCRIPT_SIMPLEX, 1.6, (255, 255, 255), 7)
+
+
+    #Timer
+    if remaining_time_gobletsquat <= 0:
+        cvzone.putTextRect(img, "Time's Up", [420, 30], thickness=2, border=2, scale=2.5)
+        display_info_gobletsquat_set2 = False
+        rest_goblet_start_time_set2 = time.time()
+        exercise_mode = "rest_goblet_set2"
+        feedback_for_results_set2 = "You didn't complete the goblet squat in time. Keep practicing!"
+        feedback_for_unsuccessful_result_set2 = ""
+
+    total_successful_count_set2 = successful_reps_count_right_gobletsquat_set2 + successful_reps_count_left_gobletsquat_set2
+    total_unsuccessful_count_set2 = unsuccessful_reps_count_left_gobletsquat_set2 + unsuccessful_reps_count_right_gobletsquat_set2    
+
+    if successful_reps_count_right_gobletsquat_set2 == 5 and successful_reps_count_left_gobletsquat_set2 == 5:
+        cvzone.putTextRect(img, 'All Repetitions Completed', [420, 30], thickness=2, border=2, scale=2.5)
+        display_info_gobletsquat_set2 = False
+        # General feedback after finishing the exercise # TO BE FETCHED
+        if dir_gen_feedback_gobletsquat_set2 == 0:
+            if 0 <= unsuccessful_reps_count_left_gobletsquat_set2 <= 10:
+                general_feedback_set2 = detector_gobletsquat.gen_feedback_successful_count(total_successful_count_set2)
+                executor.submit(detector_gobletsquat.play_sound, sound_gen_correct)
+                general_feedback_unsuccessful_set2 = detector_gobletsquat.gen_feedback_unsuccessful_count(total_unsuccessful_count_set2)
+                feedback_for_results_set2 = general_feedback_set2
+                feedback_for_unsuccessful_result_set2 = general_feedback_unsuccessful_set2
+                rest_goblet_start_time_set2 = time.time()
+                exercise_mode = "rest_goblet_set2"
+            dir_gen_feedback_gobletsquat_set2 = 1
+
+    # # To check for unsuccessful arm rep counter # CHANGED
+    if unsuccessful_reps_count_left_gobletsquat_set2 == 3 and unsuccessful_reps_count_right_gobletsquat_set2 == 3:
+        cvzone.putTextRect(img, 'You have made 3 unsuccessful tries for both arms. Please retry again', [420, 30], thickness=2, border=2, scale=1)
+        display_info_gobletsquat_set2 = False
+
+        if dir_gen_feedback_unsuccessful_gobletsquat_set2 == 0:
+            gen_feedback_unsuccessful_set2 = detector_gobletsquat.gen_feedback_unsuccessful(unsuccessful_reps_count_left_gobletsquat_set2, unsuccessful_reps_count_right_gobletsquat_set2)
+            rest_goblet_start_time_set2 = time.time()
+            exercise_mode = "rest_goblet_set2"
+            feedback_for_results_set2 = ""
+            feedback_for_unsuccessful_result_set2 = gen_feedback_unsuccessful_set2
+            dir_gen_feedback_unsuccessful_gobletsquat_set2 = 1
+            executor.submit(detector_gobletsquat.play_sound, sound_gen_incorrect)
+
+    return img
+
+def rest_goblet_set2(img):
+    global exercise_mode, rest_goblet_start_time_set2, start_time1_gobletsquat_set3 #go_result_page
+    img = cv2.resize(img, (1280, 720))
+    rest_elapsed_time = time.time() - rest_goblet_start_time_set2
+    #print(rest_elapsed_time)
+    rest_remaining_time = max(0, 5 - int(rest_elapsed_time))
+    
+
+    # Draw rectangle behind the timer text
+    cv2.rectangle(img, (890, 10), (1260, 80), (255, 0, 0), -2)  # Rectangle position and color
+
+    # Draw timer text above the rectangle
+    timer_text = f"Rest: {int(rest_remaining_time)}s"
+    cv2.putText(img, timer_text, (900, 60), cv2.FONT_HERSHEY_SIMPLEX, 1.6, (0, 0, 255), 3)
+
+    if rest_remaining_time <= 0:
+        #go_result_page = True
+        exercise_mode = "goblet_squat_set3"
+        start_time1_gobletsquat_set3 = time.time()
+    return img
+
+def goblet_squat_set3(img):
+    global display_info_gobletsquat_set3, start_time1_gobletsquat_set3, dir_gobletsquat_left_set3, dir_gobletsquat_right_set3, per_right_gobletsquat_set3, per_left_gobletsquat_set3, bar_left_gobletsquat_set3, bar_right_gobletsquat_set3, color_right_gobletsquat_set3, color_left_gobletsquat_set3, success_threshold_gobletsquat_set3, atrest_value_gobletsquat_set3, unsuccessful_reps_count_left_gobletsquat_set3, successful_reps_count_left_gobletsquat_set3, unsuccessful_reps_count_right_gobletsquat_set3, successful_reps_count_right_gobletsquat_set3, dir_left_unsuccessful_gobletsquat_set3, dir_right_unsuccessful_gobletsquat_set3, start_time4_gobletsquat_set3, time_threshold_gobletsquat_set3, within_range_time3_gobletsquat_set3, general_feedback_set3, general_feedback_left_gobletsquat_set3, gen_feedback_unsuccessful_set3, dir_gen_feedback_gobletsquat_set3, dir_gen_feedback_unsuccessful_gobletsquat_set3, cooldown_timer_gobletsquat_set3, sound_correct_both, sound_incorrect_both, sound_gen_correct, sound_gen_incorrect, tts_correct_both, tts_incorrect_both, rest_goblet_start_time_set3, executor, total_successful_count_set3, total_unsuccessful_count_set3, live_gen_feedback_gobletsquat_set3, exercise_mode, text_correction, live_feedback, feedback_for_results_set3, feedback_for_unsuccessful_result_set3, general_feedback_unsuccessful_set3
+
+    img = cv2.resize(img, (1280, 720))
+
+    elapsed_time_gobletsquat = time.time() - start_time1_gobletsquat_set3
+    remaining_time_gobletsquat = max(0, 20 - elapsed_time_gobletsquat)
+
+    if display_info_gobletsquat_set3:  # Check if to display counter, bar, and percentage
+        img = detector_gobletsquat.findPose(img, False)
+        lmList_gobletsquat = detector_gobletsquat.findPosition(img, False)
+
+        # Define angles for jumping jacks outside the if statement
+        if len(lmList_gobletsquat) != 0:
+
+            # Right and Left keypoints
+            rightleg_gobletsquat_set3 = detector_gobletsquat.GobletSquat(img, 24, 26, 28, True)
+            leftleg_gobletsquat_set3 = detector_gobletsquat.GobletSquat(img, 23, 25, 27, True)
+
+            if cooldown_timer_gobletsquat_set3 > 0:
+                cooldown_timer_gobletsquat_set3 -= 1
+
+            per_right_gobletsquat_set3 = np.interp(rightleg_gobletsquat_set3, (160, 240), (100, 0))
+            bar_right_gobletsquat_set3 = np.interp(rightleg_gobletsquat_set3, (160, 240), (480, 680))
+            per_left_gobletsquat_set3 = np.interp(leftleg_gobletsquat_set3, (160, 240), (100, 0))
+            bar_left_gobletsquat_set3 = np.interp(leftleg_gobletsquat_set3, (160, 240), (480, 680))
+
+
+            if int(per_left_gobletsquat_set3) == 100:
+                color_left_gobletsquat_set3 = (0, 255, 0)  # Change color of left leg bar to green
+            else:
+                color_left_gobletsquat_set3 = (0, 0, 255)
+            
+            if int(per_right_gobletsquat_set3) == 100:
+                color_right_gobletsquat_set3 = (0, 255, 0)
+            else:
+                color_right_gobletsquat_set3 = (0, 0, 255)
+
+            #both
+            if 40 <= per_left_gobletsquat_set3 <= 95 and 40 <= per_right_gobletsquat_set3 <= 95:
+                within_range_time3_gobletsquat_set3 += time.time() - start_time4_gobletsquat_set3
+                #start_time4_gobletsquat = time.time() 
+
+                if within_range_time3_gobletsquat_set3 >= time_threshold_gobletsquat_set3:
+                    if dir_left_unsuccessful_gobletsquat_set3 == 0 and dir_right_unsuccessful_gobletsquat_set3 == 0:
+                        unsuccessful_reps_count_left_gobletsquat_set3 += 0.5
+                        unsuccessful_reps_count_right_gobletsquat_set3 += 0.5
+                        executor.submit(detector_gobletsquat.play_sound, sound_incorrect_both)
+                        executor.submit(detector_gobletsquat.tts_sound, tts_incorrect_both)
+                        text_correction = "INCORRECT BOTH"
+                        dir_left_unsuccessful_gobletsquat_set3 = 1
+                        dir_right_unsuccessful_gobletsquat_set3 = 1
+                        
+            else:
+                within_range_time3_gobletsquat_set3 = 0
+                # Update the start time to the current time
+                start_time4_gobletsquat_set3 = time.time()
+
+            if 1 <= per_left_gobletsquat_set3 <= 10 and 1 <= per_right_gobletsquat_set3 <= 10:
+                if dir_left_unsuccessful_gobletsquat_set3 == 1 and dir_right_unsuccessful_gobletsquat_set3 == 1:
+                    unsuccessful_reps_count_left_gobletsquat_set3 += 0.5
+                    unsuccessful_reps_count_right_gobletsquat_set3 += 0.5
+                    dir_left_unsuccessful_gobletsquat_set3 = 0
+                    dir_right_unsuccessful_gobletsquat_set3 = 0
+                    text_correction = "ATREST"
+
+            if per_left_gobletsquat_set3 == success_threshold_gobletsquat_set2 and per_right_gobletsquat_set3 == success_threshold_gobletsquat_set3:
+                if dir_gobletsquat_left_set3 == 0 and dir_gobletsquat_right_set3 == 0:
+                    successful_reps_count_left_gobletsquat_set3 += 0.5
+                    successful_reps_count_right_gobletsquat_set3 += 0.5
+                    dir_gobletsquat_left_set3 = 1
+                    dir_gobletsquat_right_set3 = 1
+                    executor.submit(detector_gobletsquat.play_sound, sound_correct_both)
+                    executor.submit(detector_gobletsquat.tts_sound, tts_correct_both)
+                    text_correction = "CORRECT BOTH"
+
+            elif per_left_gobletsquat_set3 == atrest_value_gobletsquat_set3 and per_right_gobletsquat_set3 == atrest_value_gobletsquat_set3:
+                if dir_gobletsquat_left_set3 == 1 and dir_gobletsquat_right_set3 == 1:
+                    successful_reps_count_left_gobletsquat_set3 += 0.5
+                    successful_reps_count_right_gobletsquat_set3 += 0.5
+                    text_correction = "ATREST"
+                    if successful_reps_count_left_gobletsquat_set3 == successful_reps_count_right_gobletsquat_set3 and 1 <= successful_reps_count_left_gobletsquat_set3 <= 10:
+                        live_gen_feedback_gobletsquat_set3 = detector_gobletsquat.leg_feedback(successful_reps_count_left_gobletsquat_set3, successful_reps_count_right_gobletsquat_set3)
+                        live_feedback = live_gen_feedback_gobletsquat_set3
+                    dir_gobletsquat_left_set3 = 0
+                    dir_gobletsquat_right_set3 = 0
+
+
+        cvzone.putTextRect(img, 'Front Goblet Squat SET 3', [450, 30], thickness=2, border=2, scale=1.5)
+
+        # Draw rectangle behind the timer text
+        cv2.rectangle(img, (890, 10), (1260, 80), (255, 0, 0), -2)  # Rectangle position and color
+
+        # Draw timer text above the rectangle
+        timer_text = f"Time left: {int(remaining_time_gobletsquat)}s"
+        cv2.putText(img, timer_text, (900, 60), cv2.FONT_HERSHEY_SIMPLEX, 1.6, (0, 0, 255), 3)
+        # RIGHT LEG
+        cv2.putText(img, f"R {int(per_right_gobletsquat_set3)}%", (24, 470), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 0, 255), 7)
+        cv2.rectangle(img, (8, 480), (50, 680), (0, 255, 0), 5)
+        cv2.rectangle(img, (8, int(bar_right_gobletsquat_set3)), (50, 680), color_right_gobletsquat_set3, -1)
+
+        # LEFT LEG
+        cv2.putText(img, f"L {int(per_left_gobletsquat_set3)}%", (962, 470), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 0, 255), 7)
+        cv2.rectangle(img, (952, 480), (995, 680), (0, 255, 0), 5)
+        cv2.rectangle(img, (952, int(bar_left_gobletsquat_set3)), (995, 680), color_left_gobletsquat_set3, -1)
+
+    # Counter 
+    cv2.rectangle(img, (20, 20), (200, 130), (0, 0, 255), -1)
+    cv2.putText(img, f"{int(successful_reps_count_right_gobletsquat_set3)}/5", (30, 90), cv2.FONT_HERSHEY_SCRIPT_SIMPLEX, 1.6, (255, 255, 255), 7)
+
+    cv2.rectangle(img, (210, 20), (390, 130), (255, 0, 0), -1)
+    cv2.putText(img, f"{int(successful_reps_count_left_gobletsquat_set3)}/5", (220, 90), cv2.FONT_HERSHEY_SCRIPT_SIMPLEX, 1.6, (255, 255, 255), 7)
+
+
+    #Timer
+    if remaining_time_gobletsquat <= 0:
+        cvzone.putTextRect(img, "Time's Up", [420, 30], thickness=2, border=2, scale=2.5)
+        display_info_gobletsquat_set3 = False
+        rest_goblet_start_time_set3 = time.time()
+        exercise_mode = "rest_goblet_set3"
+        feedback_for_results_set3 = "You didn't complete the goblet squat in time. Keep practicing!"
+        feedback_for_unsuccessful_result_set3 = ""
+
+    total_successful_count_set3 = successful_reps_count_right_gobletsquat_set3 + successful_reps_count_left_gobletsquat_set3
+    total_unsuccessful_count_set3 = unsuccessful_reps_count_left_gobletsquat_set3 + unsuccessful_reps_count_right_gobletsquat_set3    
+
+    if successful_reps_count_right_gobletsquat_set3 == 5 and successful_reps_count_left_gobletsquat_set3 == 5:
+        cvzone.putTextRect(img, 'All Repetitions Completed', [420, 30], thickness=2, border=2, scale=2.5)
+        display_info_gobletsquat_set3 = False
+        # General feedback after finishing the exercise # TO BE FETCHED
+        if dir_gen_feedback_gobletsquat_set3 == 0:
+            if 0 <= unsuccessful_reps_count_left_gobletsquat_set3 <= 10:
+                general_feedback_set3 = detector_gobletsquat.gen_feedback_successful_count(total_successful_count_set3)
+                executor.submit(detector_gobletsquat.play_sound, sound_gen_correct)
+                general_feedback_unsuccessful_set3 = detector_gobletsquat.gen_feedback_unsuccessful_count(total_unsuccessful_count_set3)
+                feedback_for_results_set3 = general_feedback_set3
+                feedback_for_unsuccessful_result_set3 = general_feedback_unsuccessful_set3
+                rest_goblet_start_time_set3 = time.time()
+                exercise_mode = "rest_goblet_set3"
+            dir_gen_feedback_gobletsquat_set3 = 1
+
+    # # To check for unsuccessful arm rep counter # CHANGED
+    if unsuccessful_reps_count_left_gobletsquat_set3 == 3 and unsuccessful_reps_count_right_gobletsquat_set3 == 3:
+        cvzone.putTextRect(img, 'You have made 3 unsuccessful tries for both arms. Please retry again', [420, 30], thickness=2, border=2, scale=1)
+        display_info_gobletsquat_set3 = False
+
+        if dir_gen_feedback_unsuccessful_gobletsquat_set3 == 0:
+            gen_feedback_unsuccessful_set3 = detector_gobletsquat.gen_feedback_unsuccessful(unsuccessful_reps_count_left_gobletsquat_set3, unsuccessful_reps_count_right_gobletsquat_set3)
+            rest_goblet_start_time_set3 = time.time()
+            exercise_mode = "rest_goblet_set3"
+            feedback_for_results_set3 = ""
+            feedback_for_unsuccessful_result_set3 = gen_feedback_unsuccessful_set3
+            dir_gen_feedback_unsuccessful_gobletsquat_set3 = 1
+            executor.submit(detector_gobletsquat.play_sound, sound_gen_incorrect)
+    return img
+
+def rest_goblet_set3(img):
+    global exercise_mode, rest_goblet_start_time_set3, go_result_page
+    img = cv2.resize(img, (1280, 720))
+    rest_elapsed_time = time.time() - rest_goblet_start_time_set3
     #print(rest_elapsed_time)
     rest_remaining_time = max(0, 5 - int(rest_elapsed_time))
     
@@ -1455,6 +1949,7 @@ def rest_goblet(img):
         go_result_page = True
 
     return img
+
     
 
 @app.route('/register', methods=["POST"])
