@@ -6,7 +6,8 @@ import poseModules.gobletsquat_front_PoseModule as pm
 import cvzone
 import concurrent.futures
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(r'D:\CPEDES\Flask\Exercises\gaining_muscle\Goblet Squat\gobletsquat2.mp4')
+
 detector_gobletsquat = pm.poseDetectorGobletSquat()
 
 dir_gobletsquat_left = 0
@@ -17,9 +18,6 @@ repetition_time_gobletsquat = 60  # Repetition time
 # Display info
 display_info_gobletsquat = True
 
-orientation_gobletsquat = ""
-orientation2_gobletsquat = ""
-
 per_right_gobletsquat = 0
 per_left_gobletsquat = 0
 bar_left_gobletsquat = 0
@@ -29,8 +27,6 @@ bar_right_gobletsquat = 0
 color_right_gobletsquat = (0, 0, 255)
 color_left_gobletsquat = (0, 0, 255)
 
-feedback_left_gobletsquat = ""
-feedback_right_gobletsquat = ""
 
 success_threshold_gobletsquat = 100
 
@@ -45,45 +41,22 @@ successful_reps_count_right_gobletsquat = 0
 dir_left_unsuccessful_gobletsquat = 0
 dir_right_unsuccessful_gobletsquat = 0
 
-total_reps_count_gobletsquat = 0
-
-total_reps_count_left_gobletsquat = 0
-total_reps_count_right_gobletsquat = 0
-
 start_time1_gobletsquat = time.time()
-start_time2_gobletsquat = time.time()
-start_time3_gobletsquat = time.time()
 start_time4_gobletsquat = time.time()
 time_threshold_gobletsquat = 5 # Specify the time threshold in seconds # can be changed for testing but default should be 1, 0.2 is for testing
-within_range_time1_gobletsquat = 0
-within_range_time2_gobletsquat = 0
 within_range_time3_gobletsquat = 0
 
 # gen feedback success
 general_feedback = ""
 general_feedback_left_gobletsquat = ""
-general_feedback_right_gobletsquat = ""
 
 gen_feedback_unsuccessful = ""
-gen_feedback_unsuccessful_left = ""
-gen_feedback_unsuccessful_right = ""
-
-live_feedback_left_gobletsquat = ""
-live_feedback_right_gobletsquat = ""
-
-live_feedback_left_gobletsquat_unsuccessful = ""
-live_feedback_right_gobletsquat_unsuccesful = ""
-
 
 # gen feedback unsuccess
 dir_gen_feedback_gobletsquat = 0
 dir_gen_feedback_unsuccessful_gobletsquat = 0
 
 cooldown_timer_gobletsquat = 0
-cooldown_duration_gobletsquat = 5
-
-leftbody_gobletsquat = 0
-rightbody_gobletsquat = 0
 
 sound_correct_both = r'D:\CPEDES\Fittology-Flask\audio\correct_final.WAV'
 sound_incorrect_both = r'D:\CPEDES\Fittology-Flask\audio\wrong_final.WAV'
@@ -179,11 +152,6 @@ while True:
                     dir_gobletsquat_left = 0
                     dir_gobletsquat_right = 0
 
-
-        #Delay Timer for Pose Estimation
-        fps = cap.get(cv2.CAP_PROP_FPS)
-        if cooldown_timer_gobletsquat > 0:
-            cooldown_timer_gobletsquat -= 1 / fps
 
         cvzone.putTextRect(img, 'Front Goblet Squat Tracker', [450, 30], thickness=2, border=2, scale=1.5)
 

@@ -118,26 +118,16 @@ class poseDetectorGobletSquat():
 
     def leg_feedback(self, count1, count2):
 
-        if count1 == 10 and count2 == 10:
-            return f"Congratulations! You've completed all 10 goblet squats with both your legs. Celebrate your accomplishment and take pride in your hard work."
-        elif count1 == 9 and count2 == 9:
-            return f"Only one more to go, you're at 9 goblet squats with both your legs. Keep pushing! Maintain proper form and breathe rhythmically."
-        elif count1 == 8 and count2 == 8:
-            return f"You've accomplished 8 goblet squats with both your legs. Great job! Focus on keeping your back steady and your movements controlled."
-        elif count1 == 7 and count2 == 7:
-            return f"Well done on completing 7 goblet squats with both your legs. Keep up the good work! Focus on steady breathing and engaging your core shoulder muscles."
-        elif count1 == 6 and count2 == 6:
-            return f"You're now at 6 goblet squats with both your legs. Stay focused and maintain a steady pace. Remember to keep your chest up and knees aligned with your toes."
-        elif count1 == 5 and count2 == 5:
-            return f"You're halfway there with 5 goblet squats completed with both your legs. Keep going strong! Focus on maintaining proper depth and pushing through your heels."
-        elif count1 == 4 and count2 == 3:
-            return f"Great progress! You've reached 4 goblet squats with both your legs. Focus on maintaining a smooth and controlled motion."
+        if count1 == 5 and count2 == 5:
+            return f"Congratulations! You've completed all 5 goblet squats with both your legs. Celebrate your accomplishment and take pride in your hard work."
+        elif count1 == 4 and count2 == 4:
+            return f"Only one more to go, you're at 4 goblet squats with both your legs. Keep pushing! Maintain proper form and breathe rhythmically."
         elif count1 == 3 and count2 == 3:
-            return f"You've completed 3 goblet squats with both your legs. Keep it up! Remember to engage your core and drive through your heels as you stand."
+            return f"You've accomplished 3 goblet squats with both your legs. Great job! Focus on keeping your back steady and your movements controlled."
         elif count1 == 2 and count2 == 2:
-            return f"Well done on completing 2 goblet squats with both your legs. You're doing great! Focus on maintaining control and keeping your chest lifted."
+            return f"Well done on completing 2 goblet squats with both your legs. Keep up the good work! Focus on steady breathing and engaging your core shoulder muscles."
         elif count1 == 1 and count2 == 1:
-            return f"You've executed 1 goblet squat with both your legs. Keep pushing forward! Focus on form and consistency."
+            return f"You're now at 1 goblet squats with both your legs. Stay focused and maintain a steady pace. Remember to keep your chest up and knees aligned with your toes."
         elif count1 == 0 and count2 == 0:
             return f"You haven't completed a single goblet squat with both your legs. Don't give up! Take a moment to rest, then try again with determination."
         else:
@@ -162,29 +152,36 @@ class poseDetectorGobletSquat():
 
     def gen_feedback_unsuccessful_count(self, count_unsuccessful):
         if count_unsuccessful == 0:
-            return "Great job! You haven't had any unsuccessful goblet squats. Keep up the good work! Maintaining consistent form and focus is key to continued success."
-        elif count_unsuccessful == 1:
-            return "You had 1 unsuccessful goblet squat. Ensure your form is correct and keep your chest up and back straight. Paying attention to each rep will help you improve."
+            return "and great job! You haven't had any unsuccessful goblet squats. Keep up the good work! Maintaining consistent form and focus is key to continued success."
         elif count_unsuccessful == 2:
-            return "You had 2 unsuccessful goblet squats. Focus on keeping your knees tracking over your toes and avoid letting them collapse inward. This helps maximize engagement and effectiveness."
-        elif count_unsuccessful == 3:
-            return "You had 3 unsuccessful goblet squats. Concentrate on controlling the movement during both the descent and ascent. Control is crucial for muscle development."
+            return "and you had 1 unsuccessful goblet squat. Ensure your form is correct and keep your chest up and back straight. Paying attention to each rep will help you improve."
         elif count_unsuccessful == 4:
-            return "You had 4 unsuccessful goblet squats. Make sure your grip on the weight is firm but relaxed, and keep it close to your chest. Proper grip helps prevent unnecessary strain."
-        elif count_unsuccessful == 5:
-            return "You had 5 unsuccessful goblet squats. Remember to breathe properly – inhale as you squat down and exhale as you stand up. Proper breathing supports better performance."
+            return "and you had 2 unsuccessful goblet squats. Focus on keeping your knees tracking over your toes and avoid letting them collapse inward. This helps maximize engagement and effectiveness."
         elif count_unsuccessful == 6:
-            return "You had 6 unsuccessful goblet squats. Focus on maintaining a full range of motion and avoid rushing through the reps. Full motion ensures complete muscle activation."
-        elif count_unsuccessful == 7:
-            return "You had 7 unsuccessful goblet squats. Keep your heels on the ground and drive through them as you stand. Good posture is essential for effective workouts."
+            return "and you had 3 unsuccessful goblet squats. Concentrate on controlling the movement during both the descent and ascent. Control is crucial for muscle development."
         elif count_unsuccessful == 8:
-            return "You had 8 unsuccessful goblet squats. Retract your shoulder blades and keep your chest up to maintain proper alignment. Proper alignment helps prevent injury."
-        elif count_unsuccessful == 9:
-            return "You had 9 unsuccessful goblet squats. Concentrate on engaging your core and glutes with each rep. Focusing on these muscles helps improve stability and performance."
+            return "and you had 4 unsuccessful goblet squats. Make sure your grip on the weight is firm but relaxed, and keep it close to your chest. Proper grip helps prevent unnecessary strain."
         elif count_unsuccessful == 10:
-            return "You had 10 unsuccessful goblet squats. Review your technique to improve your form and prevent future unsuccessful attempts. Consistent practice leads to better results."
+            return "and you had 5 unsuccessful goblet squats. Remember to breathe properly – inhale as you squat down and exhale as you stand up. Proper breathing supports better performance."
         else:
-            return "It seems you had more than 10 unsuccessful goblet squats. Take a step back and reassess your form and technique. Consider reducing the weight to focus on proper form."
+            return "and it seems you had more than 10 unsuccessful goblet squats. Take a step back and reassess your form and technique. Consider reducing the weight to focus on proper form."
+        
+    def gen_feedback_successful_count(self, count_successful):
+        if count_successful == 0:
+            return "You haven't had any successful goblet squats yet. Let's work on your form and technique to get you on track. Focus on the basics and you'll see improvement soon "
+        elif count_successful == 2:
+            return "Good job on completing 1 successful goblet squat! Remember, consistency is key. Keep practicing to build strength and perfect your form "
+        elif count_successful == 4:
+            return "Great work! You've successfully completed 2 goblet squats. Pay attention to your form and keep building on this foundation for continued progress "
+        elif count_successful == 6:
+            return "Nice job! 3 successful goblet squats show that you're getting the hang of it. Stay focused on maintaining good form and control during each rep "
+        elif count_successful == 8:
+            return "Excellent! 4 successful goblet squats indicate you're making steady progress. Keep up the good work and stay mindful of your technique "
+        elif count_successful == 10:
+            return "Fantastic! 5 successful goblet squats are a great achievement. Continue to concentrate on your form and you'll keep improving "
+        else:
+            return f"Impressive! You've successfully completed {int(count_successful)} goblet squats. Your dedication and focus are paying off. Keep pushing forward and refining your technique."
+
 
     def gen_feedback_unsuccessful(self, unsuccessful1, unsuccessful2):
         if unsuccessful1 == 0 and unsuccessful2 == 0:

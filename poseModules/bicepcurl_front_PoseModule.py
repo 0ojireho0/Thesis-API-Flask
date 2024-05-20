@@ -101,52 +101,32 @@ class poseDetector():
             return "The count has exceeded the limit. Please reset the program."
 
     def left_arm_feedback(self, count):
-        if count == 10:
-            return "Congratulations! You've completed all 10 bicep curls with your left arm. Celebrate your accomplishment and take pride in your hard work."
-        elif count == 9:
-            return "Only two more to go, you're at 9 bicep curls with your left arm. Concentrate on squeezing your biceps hard at the top of each repetition for maximum muscle activation."
-        elif count == 8:
-            return "You've accomplished 8 bicep curls with your left arm. Keep your upper body stable and avoid using momentum from your hips or lower back to lift the weight."
-        elif count == 7:
-            return "Great job on completing 7 bicep curls with your left arm. Maintain a steady pace and focus on maintaining tension in your biceps throughout the entire range of motion."
-        elif count == 6: 
-            return "You're now at 6 bicep curls with your left arm. Stay mindful of your shoulder alignment and avoid shrugging or tensing up your neck muscles."
-        elif count == 5:
-            return "You're halfway through with 5 bicep curls completed with your left arm. Ensure a full range of motion by fully extending your arm at the bottom of each curl and contracting your bicep at the top."
+        if count == 5:
+            return "Congratulations! You've completed all 5 bicep curls with your left arm. Celebrate your accomplishment and take pride in your hard work."
         elif count == 4:
-            return "Congratulations on reaching 4 bicep curls with your left arm. Keep your wrist neutral and elbow tucked in close to your body to maximize muscle engagement."
+            return "Only one more to go, you're at 4 bicep curls with your left arm. Concentrate on squeezing your biceps hard at the top of each repetition for maximum muscle activation."
         elif count == 3:
-            return "You've now completed 3 bicep curls with your left arm. Concentrate on maintaining proper breathing patterns and engaging your core muscles for stability."
+            return "You've accomplished 3 bicep curls with your left arm. Keep your upper body stable and avoid using momentum from your hips or lower back to lift the weight."
         elif count == 2:
-            return "Well done on completing 2 bicep curls with your left arm. Focus on activating your bicep muscle fully and avoid excessive swinging or momentum."
-        elif count == 1:
-            return "You've executed 1 bicep curl with your left arm out of the planned 10. Pay attention to maintaining consistent elbow positioning and controlled movement throughout each repetition."
+            return "Great job on completing 2 bicep curls with your left arm. Maintain a steady pace and focus on maintaining tension in your biceps throughout the entire range of motion."
+        elif count == 1: 
+            return "You're now at 1 bicep curls with your left arm. Stay mindful of your shoulder alignment and avoid shrugging or tensing up your neck muscles."
         elif count == 0:
             return "You have not completed a single repetition with your left arm. Restart the program and let's do it properly!"
         else:
             return "The count has exceeded the limit. Please reset the program."
 
     def right_arm_feedback(self, count):
-        if count == 10:
-            return "Congratulations! You've completed all 10 bicep curls with your right arm. Celebrate your accomplishment and take pride in your hard work."
-        elif count == 9:
-            return "Only two more to go, you're at 9 bicep curls with your right arm. Concentrate on squeezing your biceps hard at the top of each repetition for maximum muscle activation."
-        elif count == 8:
-            return "You've accomplished 8 bicep curls with your right arm. Keep your upper body stable and avoid using momentum from your hips or lower back to lift the weight."
-        elif count == 7:
-            return "Great job on completing 7 bicep curls with your right arm. Maintain a steady pace and focus on maintaining tension in your biceps throughout the entire range of motion."
-        elif count == 6: 
-            return "You're now at 6 bicep curls with your right arm. Stay mindful of your shoulder alignment and avoid shrugging or tensing up your neck muscles."
-        elif count == 5:
-            return "You're halfway through with 5 bicep curls completed with your right arm. Ensure a full range of motion by fully extending your arm at the bottom of each curl and contracting your bicep at the top."
+        if count == 5:
+            return "Congratulations! You've completed all 5 bicep curls with your right arm. Celebrate your accomplishment and take pride in your hard work."
         elif count == 4:
-            return "Congratulations on reaching 4 bicep curls with your right arm. Keep your wrist neutral and elbow tucked in close to your body to maximize muscle engagement."
+            return "Only one more to go, you're at 4 bicep curls with your right arm. Concentrate on squeezing your biceps hard at the top of each repetition for maximum muscle activation."
         elif count == 3:
-            return "You've now completed 3 bicep curls with your right arm. Concentrate on maintaining proper breathing patterns and engaging your core muscles for stability."
+            return "You've accomplished 3 bicep curls with your right arm. Keep your upper body stable and avoid using momentum from your hips or lower back to lift the weight."
         elif count == 2:
-            return "Well done on completing 2 bicep curls with your right arm. Focus on activating your bicep muscle fully and avoid excessive swinging or momentum."
-        elif count == 1:
-            return "You've executed 1 bicep curl with your right arm out of the planned 10. Pay attention to maintaining consistent elbow positioning and controlled movement throughout each repetition."
+            return "Great job on completing 2 bicep curls with your right arm. Maintain a steady pace and focus on maintaining tension in your biceps throughout the entire range of motion."
+        elif count == 1: 
+            return "You're now at 1 bicep curls with your right arm. Stay mindful of your shoulder alignment and avoid shrugging or tensing up your neck muscles."
         elif count == 0:
             return "You have not completed a single repetition with your right arm. Restart the program and let's do it properly!"
         else:
