@@ -562,7 +562,7 @@ def bicep_curl(img):
     
     # Timer - starts timer based on set duration
     elapsed_time_bicep = time.time() - start_time1_bicep
-    remaining_time_bicep = max(0, 20 - elapsed_time_bicep)
+    remaining_time_bicep = max(0, 70 - elapsed_time_bicep)
 
     if display_info_bicep:  # Check if to display counter, bar, and percentage
         img = detector_bicep.findPose(img, False) # initializes img as variable for findpose function
@@ -823,7 +823,7 @@ def rest_bicep(img):
     img = cv2.resize(img, (1280, 720))
     rest_elapsed_time = time.time() - rest_bicep_start_time
     #print(rest_elapsed_time)
-    rest_remaining_time = max(0, 5 - int(rest_elapsed_time))
+    rest_remaining_time = max(0, 10 - int(rest_elapsed_time))
     
 
     # Draw rectangle behind the timer text
@@ -847,7 +847,7 @@ def bicep_curl_set2(img):
     img = cv2.resize(img, (1280, 720))
 
     elapsed_time_bicep = time.time() - start_time1_bicep_set2
-    remaining_time_bicep = max(0, 10 - elapsed_time_bicep)
+    remaining_time_bicep = max(0, 60 - elapsed_time_bicep)
 
     if display_info_bicep_set2:  # Check if to display counter, bar, and percentage
         img = detector_bicep.findPose(img, False) # initializes img as variable for findpose function
@@ -1109,7 +1109,7 @@ def rest_bicep_set2(img):
     img = cv2.resize(img, (1280, 720))
     rest_elapsed_time = time.time() - rest_bicep_start_time_set2
     #print(rest_elapsed_time)
-    rest_remaining_time = max(0, 5 - int(rest_elapsed_time))
+    rest_remaining_time = max(0, 10 - int(rest_elapsed_time))
     
 
     # Draw rectangle behind the timer text
@@ -1132,7 +1132,7 @@ def bicep_curl_set3(img):
     img = cv2.resize(img, (1280, 720))
 
     elapsed_time_bicep = time.time() - start_time1_bicep_set3
-    remaining_time_bicep = max(0, 10 - elapsed_time_bicep)
+    remaining_time_bicep = max(0, 60 - elapsed_time_bicep)
 
     if display_info_bicep_set3:  # Check if to display counter, bar, and percentage
         img = detector_bicep.findPose(img, False) # initializes img as variable for findpose function
@@ -1392,7 +1392,7 @@ def rest_bicep_set3(img):
     img = cv2.resize(img, (1280, 720))
     rest_elapsed_time = time.time() - rest_bicep_start_time_set3
     #print(rest_elapsed_time)
-    rest_remaining_time = max(0, 5 - int(rest_elapsed_time))
+    rest_remaining_time = max(0, 10 - int(rest_elapsed_time))
     
 
     # Draw rectangle behind the timer text
@@ -1424,7 +1424,7 @@ def goblet_squat(img):
             display_info_gobletsquat = True
 
     elapsed_time_gobletsquat = time.time() - start_time1_gobletsquat
-    remaining_time_gobletsquat = max(0, 20 - elapsed_time_gobletsquat)
+    remaining_time_gobletsquat = max(0, 70 - elapsed_time_gobletsquat)
 
     if display_info_gobletsquat:  # Check if to display counter, bar, and percentage
         img = detector_gobletsquat.findPose(img, False)
@@ -1579,7 +1579,7 @@ def rest_goblet(img):
     img = cv2.resize(img, (1280, 720))
     rest_elapsed_time = time.time() - rest_goblet_start_time
     #print(rest_elapsed_time)
-    rest_remaining_time = max(0, 5 - int(rest_elapsed_time))
+    rest_remaining_time = max(0, 10 - int(rest_elapsed_time))
     
 
     # Draw rectangle behind the timer text
@@ -1602,7 +1602,7 @@ def goblet_squat_set2(img):
     img = cv2.resize(img, (1280, 720))
 
     elapsed_time_gobletsquat = time.time() - start_time1_gobletsquat_set2
-    remaining_time_gobletsquat = max(0, 20 - elapsed_time_gobletsquat)
+    remaining_time_gobletsquat = max(0, 60 - elapsed_time_gobletsquat)
 
     if display_info_gobletsquat_set2:  # Check if to display counter, bar, and percentage
         img = detector_gobletsquat.findPose(img, False)
@@ -1758,7 +1758,7 @@ def rest_goblet_set2(img):
     img = cv2.resize(img, (1280, 720))
     rest_elapsed_time = time.time() - rest_goblet_start_time_set2
     #print(rest_elapsed_time)
-    rest_remaining_time = max(0, 5 - int(rest_elapsed_time))
+    rest_remaining_time = max(0, 10 - int(rest_elapsed_time))
     
 
     # Draw rectangle behind the timer text
@@ -1780,7 +1780,7 @@ def goblet_squat_set3(img):
     img = cv2.resize(img, (1280, 720))
 
     elapsed_time_gobletsquat = time.time() - start_time1_gobletsquat_set3
-    remaining_time_gobletsquat = max(0, 20 - elapsed_time_gobletsquat)
+    remaining_time_gobletsquat = max(0, 60 - elapsed_time_gobletsquat)
 
     if display_info_gobletsquat_set3:  # Check if to display counter, bar, and percentage
         img = detector_gobletsquat.findPose(img, False)
@@ -1935,7 +1935,7 @@ def rest_goblet_set3(img):
     img = cv2.resize(img, (1280, 720))
     rest_elapsed_time = time.time() - rest_goblet_start_time_set3
     #print(rest_elapsed_time)
-    rest_remaining_time = max(0, 5 - int(rest_elapsed_time))
+    rest_remaining_time = max(0, 10 - int(rest_elapsed_time))
     
 
     # Draw rectangle behind the timer text
